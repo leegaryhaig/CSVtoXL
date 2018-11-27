@@ -3,7 +3,7 @@ Converts a batch of csv files into a single Excel file, with each csv file havin
 
 Usage:
 1. Place script in any required directory
-2. Create a 'csvfiles' directory or folder (/Desktop/csvfiles)
+2. Create a 'csvfiles' directory or folder (i.e .../Desktop/csvfiles)
 3. Copy your batch csv files into the csvfiles directory or folder
 4. Run the script from Terminal
     $ cd Desktop
