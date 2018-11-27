@@ -4,7 +4,6 @@ from openpyxl.utils import get_column_letter
 # Creates wb object
 wb = openpyxl.Workbook()
 
-def sheetLimit
 
 def convertCSV(name):
     # Loop through each row and column of the csvData array in the corresponding excel sheet
