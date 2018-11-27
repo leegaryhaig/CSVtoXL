@@ -6,6 +6,6 @@ Usage:
 2. Create a 'csvfiles' directory or folder (i.e .../Desktop/csvfiles)
 3. Copy your batch csv files into the csvfiles directory or folder
 4. Run the script from Terminal
-    $ cd Desktop
-    $ python3 CSVtoXl.py
+$ cd Desktop
+$ python3 CSVtoXl.py
 
