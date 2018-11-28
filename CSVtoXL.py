@@ -20,7 +20,7 @@ for files in os.listdir('.'):
     curDir.append(files)
 
 if 'csvfiles' in curDir:
-    for root, dirs, files in os.walk('csvfile'):
+    for root, dirs, files in os.walk('csvfiles'):
         for name in files:
             if name.endswith('.csv'):
                 abs_path = os.path.join(root, name)
