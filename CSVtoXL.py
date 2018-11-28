@@ -11,8 +11,7 @@ def convertCSV(name):
         name = name[:31]
     sheetname = wb.create_sheet(name)
     for row_num in range(len(csvData)):
-        for col_num in range(len(csvData[row_num]) - 1):
-            # print('sheetname.cell(' + str(get_column_letter(col_num + 1)) + str(row_num + 1) + ')' )
+        for col_num in range(len(csvData[row_num])):
             # print('sheetname.cell(' + str(get_column_letter(col_num + 1)) + str(row_num + 1) + ')' + csvData[row_num][col_num])
             sheetname.cell(row=row_num + 1, column=col_num + 1).value = csvData[row_num][col_num]
 
@@ -21,7 +20,7 @@ for files in os.listdir('.'):
     curDir.append(files)
 
 if 'csvfiles' in curDir:
-    for root, dirs, files in os.walk('csvfiles'):
+    for root, dirs, files in os.walk('csvfile'):
         for name in files:
             if name.endswith('.csv'):
                 abs_path = os.path.join(root, name)
