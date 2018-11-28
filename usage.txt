@@ -3,8 +3,8 @@ System: osx
 Requirements:
 1. Python3
   1a. $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" # Installs Homebrew
-  1b. $ brew install python # Homebrew installs Python(2)(3) and pip pointing to the Homebrew'd Python3
-  1c. $ python --version # Checks if you have python3 installed.
+  1b. $ brew install python3 # Homebrew installs Python(2)(3) and pip pointing to the Homebrew'd Python3
+  1c. $ python3 --version # Checks if you have python3 installed.
 2. openpyxl package
   2a. $ pip3 install openpyxl # installs Python package
   2b. $ python3 # Check if openpyxl was installed in python3.x directory
