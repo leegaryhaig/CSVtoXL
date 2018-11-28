@@ -12,9 +12,9 @@ Requirements:
   2d. >>> site.getsitepackages('openpyxl')
   
 Usage:
-1. Place script in any directory
-2. Create a 'csvfiles' directory or folder (i.e .../Desktop/csvfiles)
-3. Copy your batch csv files into the csvfiles directory or folder
+1. Place script in any directory, for example we will use the Desktop directory
+2. Create a 'csvfiles' folder on the desktop (i.e .../Desktop/csvfiles)
+3. Copy your batch csv files into the 'csvfiles' folder
 4. Run the script from Terminal
   4a. $ cd Desktop
   4b. $ python3 CSVtoXL.py
