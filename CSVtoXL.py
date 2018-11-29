@@ -31,6 +31,8 @@ if 'csvfiles' in curDir:
                 convertCSV(name)
 
     xl_filename = input('Save Excel File as:\n>')
+    if xl_filename.endswith('.xlsx'):
+        xl_filename = xl_filename.rstrip('.xlsx')
     csvFile.close()
     wb.remove(wb['Sheet'])
     wb.save(str(xl_filename) + '.xlsx')
